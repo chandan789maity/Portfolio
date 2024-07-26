@@ -4,6 +4,9 @@ import educonnect from "../../assets/Images/educonnect.png";
 import frontRow from "../../assets/Images/frontRow.png";
 import chat from "../../assets/Images/chat.png";
 import NLP from "../../assets/Images/NLP.png";
+import dia from "../../assets/Images/dia.png";
+import heart from "../../assets/Images/heart.png";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -47,6 +50,22 @@ const projects: Project[] = [
     description: "This is a project on creating a simple chatbot also can convert output text to speech.",
     stack: ["JavaScript", "CSS", "HTML", "Tailwind", "React", "Acertinity Ui"],
     githublink: "https://github.com/chandan789maity/Chat-Bot",
+    previewlink: ""
+  },
+  {
+    title: "Diabetes Predictor",
+    image: dia,
+    description: "This is a Machine learning model to predict if the person has diabetes or not.",
+    stack: ["Python","Numpy", "Pandas", "Naive Bayes", "K-NN", ],
+    githublink: "https://github.com/chandan789maity/Diabetes-predictor",
+    previewlink: ""
+  },
+  {
+    title: "Heart Disease Predictor",
+    image: heart,
+    description: "This is a Machine learning model to predict if the person has Heart disease or not.",
+    stack: ["Python", "Numpy", "Pandas","SVM","K-NN", "Decision Tree","Random Forest",],
+    githublink: "https://github.com/chandan789maity/Heart-disease-Predictor",
     previewlink: ""
   },
   // Add more projects if needed
