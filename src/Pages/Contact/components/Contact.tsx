@@ -13,12 +13,20 @@ export const ContactUs: React.FC = () => {
 
     if (form.current) {
       emailjs
+        // .sendForm(
+        //   import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        //   import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        //   form.current,
+        //   import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        // )
+        //------------------
         .sendForm(
-          import.meta.env.VITE_EMAILJS_SERVICE_ID,
-          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+          "service_u1gdo7r",
+          "template_ws35kyg",
           form.current,
-          import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-        ) 
+          "GlwhijwyGE6tnMLb-"
+        )
+        //----------------------------------
         .then(
           () => {
             setLoading(false);
@@ -37,7 +45,7 @@ export const ContactUs: React.FC = () => {
   };
 
   return (
-    <section id="Contact" className="py-5 bg-black">
+    <section id="Contact" className="py-5 bg-black pb-16">
       <div className="max-w-lg max-sm:w-4/5 mx-auto sm:px-6 lg:px-8 ">
         <div className="max-sm:mt-8 mt-12 flex flex-col justify-center">
           <div className="text-center mb-6 max-sm:mb-2">

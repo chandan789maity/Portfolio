@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
                 </button>
               </a>
               <a href="https://www.linkedin.com/in/chandan-maity-4b7643265/">
-                <button className="hover:scale-105 duration-200 group flex justify-center p-2 rounded-xl drop-shadow-xl hover:bg-blue-800 from-gray-800 text-white font-semibold transition-all bg-violet-900 text-xs sm:text-sm sm:p-3">
+                <button className="gap-1 hover:scale-105 duration-200 group flex justify-center p-2 rounded-xl drop-shadow-xl hover:bg-blue-800 from-gray-800 text-white font-semibold transition-all bg-violet-900 text-xs sm:text-sm sm:p-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1em"

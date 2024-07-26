@@ -1,6 +1,7 @@
 import './App.css';
 // import { BackgroundBeams } from './components/background-beams';
 import Navebar from './components/Navebar';
+import Footer from './Pages/Footer/Footer';
 import Home from './Pages/Home/Home';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
        <Navebar />
       {/* <BackgroundBeams/> */}
       <Home />
+      <Footer/>
      
     </div>
     </section>
