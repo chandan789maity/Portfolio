@@ -28,14 +28,7 @@ const projects: Project[] = [
     githublink: "https://github.com/chandan789maity/EduConnect",
     previewlink: "https://edu-connect-jade.vercel.app/"
   },
-  {
-    title: "MULTER AI Chatbot",
-    image: chat,
-    description: "This is a project on Chatbot ,powered by Gemini.",
-    stack: ["Typescript", "Tailwind", "Gemini","Node.js","Express","Acertinity Ui","MongoDB"],
-    githublink: "https://github.com/chandan789maity/Chat-Bot",
-    previewlink: ""
-  },
+  
   {
     title: "FrontRow",
     image: frontRow,
@@ -43,6 +36,14 @@ const projects: Project[] = [
     stack: ["Node.js", "Express", "MongoDB", "Bcrypt", "React", "Tailwind", "CSS"],
     githublink: "https://github.com/chandan789maity/FrontRow/tree/Chandan",
     previewlink: "https://buyfrontrow.netlify.app/"
+  },
+  {
+    title: "MULTER AI Chatbot",
+    image: chat,
+    description: "This is a project on Chatbot ,powered by Gemini.",
+    stack: ["Typescript", "Tailwind", "Gemini","Node.js","Express","Acertinity Ui","MongoDB","Bcrypt","CSS"],
+    githublink: "https://github.com/chandan789maity/ChatBot-Using-Gemini",
+    previewlink: "https://botasai.vercel.app/"
   },
   {
     title: "OpenNLP",
