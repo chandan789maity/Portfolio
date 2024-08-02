@@ -41,7 +41,7 @@ const projects: Project[] = [
     title: "MULTER AI Chatbot",
     image: chat,
     description: "This is a project on Chatbot ,powered by Gemini.",
-    stack: ["Typescript", "Tailwind", "Gemini","Node.js","Express","Acertinity Ui","MongoDB","Bcrypt","CSS"],
+    stack: ["Typescript", "Tailwind", "Gemini","Node.js","Express","Acertinity Ui","MongoDB","CSS"],
     githublink: "https://github.com/chandan789maity/ChatBot-Using-Gemini",
     previewlink: "https://botasai.vercel.app/"
   },
