@@ -29,6 +29,14 @@ const projects: Project[] = [
     previewlink: "https://edu-connect-jade.vercel.app/"
   },
   {
+    title: "MULTER AI Chatbot",
+    image: chat,
+    description: "This is a project on Chatbot ,powered by Gemini.",
+    stack: ["Typescript", "Tailwind", "Gemini","Node.js","Express","Acertinity Ui","MongoDB"],
+    githublink: "https://github.com/chandan789maity/Chat-Bot",
+    previewlink: ""
+  },
+  {
     title: "FrontRow",
     image: frontRow,
     description: "This is project of Movie Booing System. Where users can book their ticket seamlessly and also can share.",
@@ -44,14 +52,7 @@ const projects: Project[] = [
     githublink: "https://github.com/chandan789maity/JavaOpenNLP",
     previewlink: ""
   },
-  {
-    title: "ChatBot",
-    image: chat,
-    description: "This is a project on creating a simple chatbot also can convert output text to speech.",
-    stack: ["JavaScript", "CSS", "HTML", "Tailwind", "React", "Acertinity Ui"],
-    githublink: "https://github.com/chandan789maity/Chat-Bot",
-    previewlink: ""
-  },
+  
   {
     title: "Diabetes Predictor",
     image: dia,
