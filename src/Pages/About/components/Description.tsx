@@ -2,7 +2,7 @@ import { TextGenerateEffect } from "../../../components/text-generate-effect";
 
 const Description = () => {
   const about =
-    "I am currently pursuing a B.Tech in Computer Science Engineering at Heritage Institute of Technology. I am passionate about leveraging technology to solve real-world problems and continuously learning new skills to enhance my expertise.";
+    "I’m a Junior Data Software Engineer with a strong foundation in distributed systems, real-time data processing, and big data technologies. I specialize in building scalable data pipelines using Python, SQL, and PySpark, and have hands-on experience with Apache Spark, Kafka, and Elasticsearch. Proficient in both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases, I’ve also worked with Azure and Databricks for cloud-native solutions. Passionate about AI, data science, and continuous learning, I strive to design efficient and scalable data workflows that drive impactful insights.";
   return (
     
     <div className="max-sm:mt-8 mt-12">
