@@ -2,7 +2,7 @@ import { TextGenerateEffect } from "../../../components/text-generate-effect";
 
 const Description = () => {
   const about =
-    "I’m a Junior Data Software Engineer with a strong foundation in distributed systems, real-time data processing, and big data technologies. I specialize in building scalable data pipelines using Python, SQL, and PySpark, and have hands-on experience with Apache Spark, Kafka, and Elasticsearch. Proficient in both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases, I’ve also worked with Azure and Databricks for cloud-native solutions. Passionate about AI, data science, and continuous learning, I strive to design efficient and scalable data workflows that drive impactful insights.";
+    "I’m a Junior Data Software Engineer skilled in distributed systems, real-time data processing, and scalable data pipelines. I work with Python, SQL, PySpark, and tools like Apache Spark, Kafka, and Elasticsearch. I’m experienced with MySQL, PostgreSQL, MongoDB, and cloud platforms such as Azure and Databricks. Passionate about AI and data science, I focus on building efficient, scalable workflows that deliver meaningful insights.";
   return (
     
     <div className="max-sm:mt-8 mt-12">
